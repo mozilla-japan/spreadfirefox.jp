@@ -1,0 +1,26 @@
+DirectoryIndex index.php index.html index.xml
+Options FollowSymLinks MultiViews -Indexes
+
+RewriteEngine on
+# RewriteRule ^$              http://www.spreadfirefox.com/node/23210/ [R]
+RewriteRule ^$              http://www.spreadfirefox.com/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/give_me_a_name/                                          http://foxkeh.jp/blog/5/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/the_announcement_has_been_postponed_until_tuesday/       http://foxkeh.jp/blog/6/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/finally_decided/                                         http://foxkeh.jp/blog/1/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/the_history_of_firefox/                                  http://foxkeh.jp/blog/2/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/vox_banner_contest/                                      http://foxkeh.jp/blog/4/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/foxkeh_banners_1/                                        http://foxkeh.jp/blog/7/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/09/vox_banner_contest_in_progress/                          http://foxkeh.jp/blog/8/  [R=permanent]
+RewriteRule ^foxkeh/blog/2006/10/project_fx_prologue/                                     http://foxkeh.jp/blog/15/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/10/firefox_2/                                               http://foxkeh.jp/blog/18/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/10/vox/                                                     http://foxkeh.jp/blog/19/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/10/fx1/                                                     http://foxkeh.jp/blog/16/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/10/fx2/                                                     http://foxkeh.jp/blog/17/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/10/foxkeh_banners_for_firefox_2/                            http://foxkeh.jp/blog/22/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/11/post/                                                    http://foxkeh.jp/blog/23/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/11/mobile_straps_shipped_today/                             http://foxkeh.jp/blog/24/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/11/making-of-strap/                                         http://foxkeh.jp/blog/25/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/12/fx3/                                                     http://foxkeh.jp/blog/20/ [R=permanent]
+RewriteRule ^foxkeh/blog/2006/12/fx4/                                                     http://foxkeh.jp/blog/21/ [R=permanent]
+RewriteRule ^foxkeh(.*)                                                                   http://foxkeh.jp$1        [R=permanent]
+RewriteRule ^mascot(.*)                                                                   http://foxkeh.jp$1        [R=permanent]

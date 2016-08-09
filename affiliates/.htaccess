@@ -1,0 +1,13 @@
+DirectoryIndex counter.php index.php index.html index.xml
+Options FollowSymLinks MultiViews -Indexes
+
+RewriteEngine on
+RewriteBase /affiliates/
+RewriteRule ^(t=)?([0-9]{3})(/)?$ http://mozilla.jp/firefox/
+RewriteRule ^(t=)?([0-9]{3})/(o=)?image(/)?$ /affiliates/images/$2.png
+
+# RewriteRule ^(t=)?([0-9]{3})(/)?$             counter.php?output=link&type=$2
+# RewriteRule ^(t=)?([0-9]{3})/(o=)?image(/)?$  counter.php?output=image&type=$2
+# RewriteRule ^admin$                           counter.php?output=admin
+# RewriteRule ^sample$                          counter.php?output=sample
+# RewriteRule ^$                                index.html
